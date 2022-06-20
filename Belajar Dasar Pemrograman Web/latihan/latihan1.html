@@ -5,6 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web calculator</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            }
+            
+            body {
+            font-family: sans-serif;
+            }
+            
+            .flex-container-column {
+            display: flex;
+            
+            /* properti pendukung */
+            flex-direction: column;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: right;
+            }
+            
+            .flex-container-row {
+            display: flex;
+            }
+            
+            .button {
+            flex-basis: 25%;
+            
+            /* properti pendukung */
+            font-size: 1.5em;
+            text-align: center;
+            padding: 40px;
+            border: 1px solid black;
+            background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+            cursor: pointer;
+            }
+            
+            .double {
+            flex-basis: 50%;
+            }
+    </style>
 </head>
 <body>
     <div class="flex-container-column">
